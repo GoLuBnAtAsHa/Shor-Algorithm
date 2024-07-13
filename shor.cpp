@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using std::cin;
 using std::cout;
 using std::endl;
@@ -11,7 +12,7 @@ int main(){
 int n;
 	cin>>n;
 	float x=rand()%n;
-	cout<<x<<<endl;
+	cout<<x<<endl;
 	int r=0;
 	
 	while(pow(x,r)!=1){
